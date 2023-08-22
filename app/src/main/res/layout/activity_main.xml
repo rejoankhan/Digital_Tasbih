@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:text=""
+        android:textSize="100sp"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_text_view"
+        android:text="যোগ করুন"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom2"
+        android:text="বিয়োগ করুন"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:textSize="40sp"
+        android:backgroundTint="#F44336"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="মুছে ফেলুন" />
+    <Button
+        android:id="@+id/suraMuluk"
+        android:textSize="30sp"
+        android:text="সুরা মুলুক"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/arRahman"
+        android:textSize="30sp"
+        android:text="সুরা আর রহমান"
+        android:textColor="@color/black"
+        android:backgroundTint="#FF9800"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/gojol1"
+        android:textSize="30sp"
+        android:text="গজলঃ সিজদাতে হই নত"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/newPage"
+        android:textSize="30sp"
+        android:text="Animation"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

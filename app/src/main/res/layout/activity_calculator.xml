@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".CalculatorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ক্যলকুলেটর"
+            android:textSize="60sp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="@color/purple_500"
+            />
+        <TextView
+            android:text="কত টাকায় কিনেছেন"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+
+            android:id="@+id/etBuy"
+            android:hint="ক্রয়মুল্য"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="কত টাকায় বিক্রি করেছেন"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="#FFC107"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+
+            android:id="@+id/etSell"
+            android:hint="বিক্রয়মুল্য"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/calButton"
+            android:text="ফলাফল"
+            android:textSize="50sp"
+            android:textColor="@color/black"
+            android:background="@drawable/custom2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvDisplay"
+            android:textSize="30sp"
+            android:textColor="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="আদর্শ ওজন পরিমাপক"
+            android:textSize="40sp"
+            android:layout_marginTop="50dp"
+            android:background="@color/teal_200"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="আপনি কত কেজি ?"
+            android:textSize="40sp"
+            android:background="#CDDC39"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/etBMIw"
+            android:hint="ওজন লিখুন"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="আপনার উচ্চতা কত?"
+            android:textSize="40sp"
+            android:background="#CDDC39"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/etBMIhf"
+                android:hint="ফিট লিখুন"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textSize="35sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/etBMIhi"
+                android:hint="ইন্চি লিখুন"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:textSize="35sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/buttonBresult"
+            android:text="ফলাফল দেখুন"
+            android:textSize="40sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvDisplayBMI"
+            android:textSize="40sp"
+            android:textColor="#E91EB6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

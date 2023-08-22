@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MonazatActivity">
+    <TextView
+        android:text="নিত্য প্রয়োজনীয় দোয়া ও মোনাজাত"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:background="@color/purple_200"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/monazat1"
+        android:textSize="30sp"
+        android:background="#FFEB3B"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ভালোবাসা বৃদ্ধির দোয়া" />
+
+    <TextView
+        android:id="@+id/monazat2"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:background="#FF893B"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="টেনশন মুক্ত থাকার দোয়া" />
+
+    <TextView
+        android:id="@+id/monazat3"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:background="#C763D8"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ইস্তিগফার" />
+    <TextView
+        android:id="@+id/monazat4"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:background="#6A6322"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="রাতে ঘুমানোর দোয়া" />
+    <TextView
+        android:id="@+id/monazat5"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:background="#F389AD"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="আয়াতুল কুরছী" />
+    <TextView
+        android:id="@+id/monazat6"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:background="#47B3C1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কঠিন অসুখ থেকে মুক্তির দোয়া" />
+    <TextView
+        android:id="@+id/monazat7"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:background="#EBF682"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সুরা মূলক" />
+    <TextView
+        android:id="@+id/monazat8"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:background="#CD463C"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LoopTest" />
+    <TextView
+        android:id="@+id/tvDisplay2"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/buttonChkInternet"
+        android:text="Check Internet"
+        android:textSize="35sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
